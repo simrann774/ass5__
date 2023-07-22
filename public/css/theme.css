@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap');
+/* theme.css */
+
+/* Navigation Bar */
+.bg-light {
+    background-color: #f8f9fa; /* Set the background color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+  }
+  
+  /* Navigation "Brand" */
+  .navbar-brand {
+    font-family: 'Montserrat', sans-serif; /* Import a cool font from Google Fonts */
+    color: #333; /* Change the text color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add a text shadow */
+  }
+  
+  /* Navigation "Link" */
+  .nav-link {
+    font-family: 'Open Sans', sans-serif; /* Import a cool font from Google Fonts */
+    color: #555; /* Change the text color */
+  }
+  
+  .nav-link:hover {
+    color: #f00; /* Change the hover color */
+  }
+  
+  /* App Background */
+  body, html {
+    background: linear-gradient(to bottom, skyblue, #2929ce); /* Apply a full-page gradient */
+    overflow: auto; /* Ensure the gradient covers the entire page */
+    height: 100%;
+  }
+  
+ a {
+  color: #333!important;;
+  text-decoration: none!important;
+ }  
+  /* "Primary" Button */
+  .btn-primary {
+    background-color: #f00; /* Set a solid background color */
+    color: #fff; /* Set the text color */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+  }
+  
+  .btn-primary:hover {
+    background-color: #ff0000; /* Change the hover background color */
+  }
+  
+  /* Table cells inside "odd" numbered table rows */
+  tr:nth-child(odd) td {
+    background-color: #eee; /* Set a solid background color */
+  }
+  
+  /* All "Heading" elements */
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Roboto', sans-serif; /* Import a cool font from Google Fonts */
+    color: #f00; /* Change the text color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add a text shadow */
+  }
+  
+  /* All "Anchor" elements (HTML Links) */
+  a {
+    color: #00f; /* Change the text color */
+  }
+  
+  a:hover {
+    color: #0000ff; /* Change the hover color */
+  }
+  
+  /* Fieldset "Legends" */
+  legend {
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    font-family: 'Open Sans', sans-serif; /* Import a cool font from Google Fonts */
+    color: #333; /* Change the text color */
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2); /* Add a text shadow */
+  }
+  
